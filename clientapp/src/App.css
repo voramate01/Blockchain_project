@@ -1,0 +1,65 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.Background
+{
+  height :100%;
+  width:100%;
+  background-image: url(https://www.etourismsummit.com/wp-content/uploads/2017/12/world-map-background.gif);
+  background-size:cover;
+  background-position: center;
+  position: relative;
+  overflow-x: hidden;
+  text-align: center;
+
+}
+.demo {  
+  margin-top: 50px;  
+  position: relative;  
+}  
+  
+  
+.car {  
+  
+    
+  background-image: url(car.png);  
+  height: 200px;  
+  width: 250px;  
+  
+  left: 0px;  
+  top: 0px;  
+  
+  position: absolute;  
+}  
+  
+.animation {  
+  animation: sampleanimation 8s forwards;  
+}  
+  
+@keyframes sampleanimation {  
+  0% {  
+    left: 0px;  
+    top: 0px;  
+  }  
+    
+  100% {  
+    left: 100%;  
+    top: 0px;  
+  }  
+}  
+
+
+.buttonSubmit {
+ display: none;
+}
