@@ -1,4 +1,4 @@
-# Blockchain_project
+### Blockchain_project
 OBJECTIVE:
 create front end user interface to interact with a simple Blockchain Ethereum decentralized smart contract application. It also required simple animation on the interface to enhance user experience quality.
 In order to complete this task, we performed five main steps:
